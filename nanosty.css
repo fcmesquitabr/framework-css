@@ -231,24 +231,22 @@ input[type="radio"] {
   .container {
     max-width: 750px;
   }
-  .col-p-1, .col-p-2, 
-  .col-m-1, .col-m-2, 
-  .col-g-1, .col-g-2 {
+  .col-p-1, .col-p-2, .col-p-3, 
+  .col-m-1, .col-m-2, .col-m-3, 
+  .col-g-1, .col-g-2, .col-g-3 {
     width: 25%;
   }
-  .col-p-3, .col-p-4, .col-p-5,
-  .col-m-3, .col-m-4, .col-m-5,
-  .col-g-3, .col-g-4, .col-g-5 {
+ .col-p-4, .col-p-5, .col-p-6,
+ .col-m-4, .col-m-5, .col-m-6, 
+ .col-g-4, .col-g-5, .col-g-6 {
     width: 50%;
   }
-  .col-p-6, .col-p-7, .col-p-8,
-  .col-m-6, .col-m-7, .col-m-8,
-  .col-g-6, .col-g-7, .col-g-8 {
+  .col-p-7, .col-p-8, .col-p-9, 
+  .col-m-7, .col-m-8, .col-m-9,
+  .col-g-7, .col-g-8, .col-g-9 {
     width: 75%;
   }
-  .col-p-9, .col-p-10, 
-  .col-m-9, .col-m-10, 
-  .col-g-9, .col-g-10 {
+  .col-p-10, .col-m-10, .col-g-10 {
     width: 100%;
   }
 }
