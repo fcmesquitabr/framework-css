@@ -7,9 +7,9 @@ Versão atual: 1.0
 
 O nanosty é um framework CSS simplificado baseado nas ideias do Bootstrap e do Materialize, sendo de fácil utilização.
 
-Para usar um layout com box, basta usar a classe CSS '.container' na div mais externa. Dentro do container, podemos especificar linhas através de novas div com a classe '.row'. E, dentro de cada linha, podemos criar colunas através de novas div com a classe '.col-{p|m|g}-{1|2|3|...}'. Lembrando que existem tags especiais no HTML5 que podem se usadas no lugar de uma div: section, aside etc.
+Para usar um layout com box, basta usar a classe CSS '.container' na div mais externa. Dentro do container, podemos especificar linhas através de novas div com a classe '.row'. E, dentro de cada linha, podemos criar colunas através de novas div com a classe '.col-{p|m|g}-{1|2|3|...}'. Lembrando que existem tags especiais no HTML5 que podem ser usadas no lugar de uma div: section, aside etc.
 
-Tabelas no nanosty devem usar a classe CSS '.tabela'.
+Tabelas no nanosty devem usar a classe CSS '.table'.
 
 As barras de navegação contendo os itens de menu podem ser horizontais (classe '.horizontal' na tag '<nav>') ou verticais (classe '.vertical' na tag '<nav>').
 
