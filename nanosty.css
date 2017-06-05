@@ -2,26 +2,26 @@
 
 * { 
   margin: 0;
-  padding: 0; 
-  font-family: Merriweather, Roboto, SlaboArial, Helvetica, sans-serif; 
-  -webkit-box-sizing: border-box; 
-  -moz-box-sizing: border-box; 
-  box-sizing: border-box; 
+  padding: 0;
+  font-family: Merriweather, Roboto, SlaboArial, Helvetica, sans-serif;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
-.background-lightgray {
+.bg-lightgray {
   background-color: lightgray;
 }
 
-.background-lightblue {
+.bg-lightblue {
   background-color: lightblue;
 }
 
-.background-lightyellow {
+.bg-lightyellow {
   background-color: lightyellow;
 }
 
-.background-lightgreen {
+.bg-lightgreen {
   background-color: lightgreen;
 }
 
@@ -44,7 +44,7 @@
 .col-p-8, .col-m-8, .col-g-8,
 .col-p-9, .col-m-9, .col-g-9,
 .col-p-10, .col-m-10, .col-g-10 {
-  display: block;
+  display: inline-block;
   position: relative;
   min-height: 1px;
   padding: 0 10px;
@@ -97,11 +97,11 @@ nav.vertical ul li a { display: block; padding-top: 5px; padding-bottom: 5px; wo
 nav ul li a:hover { text-decoration: none; }
 
 header {
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 footer {
-  margin-top: 10px;
+  margin-top: 5px;
 }
 
 img, video {
@@ -210,7 +210,7 @@ input[type="radio"] {
 .radio-inline input[type="radio"],
 .checkbox-inline input[type="checkbox"] {
   position: absolute;
-  margin-top: 4px \9;
+  margin-top: 4px;
   margin-left: -20px;
 }
 
@@ -219,6 +219,7 @@ input[type="radio"] {
   .container {
     max-width: 480px;
   }
+  
   .col-p-1, .col-p-2, .col-p-3, .col-p-4, .col-p-5, .col-p-6, .col-p-7, .col-p-8, .col-p-9, .col-p-10,
   .col-m-1, .col-m-2, .col-m-3, .col-m-4, .col-m-5, .col-m-6, .col-m-7, .col-m-8, .col-m-9, .col-m-10,
   .col-g-1, .col-g-2, .col-g-3, .col-g-4, .col-g-5, .col-g-6, .col-g-7, .col-g-8, .col-g-9, .col-g-10 {
@@ -231,21 +232,25 @@ input[type="radio"] {
   .container {
     max-width: 750px;
   }
+  
   .col-p-1, .col-p-2, .col-p-3, 
   .col-m-1, .col-m-2, .col-m-3, 
   .col-g-1, .col-g-2, .col-g-3 {
     width: 25%;
   }
+  
  .col-p-4, .col-p-5, .col-p-6,
  .col-m-4, .col-m-5, .col-m-6, 
  .col-g-4, .col-g-5, .col-g-6 {
     width: 50%;
   }
+  
   .col-p-7, .col-p-8, .col-p-9, 
   .col-m-7, .col-m-8, .col-m-9,
   .col-g-7, .col-g-8, .col-g-9 {
     width: 75%;
   }
+  
   .col-p-10, .col-m-10, .col-g-10 {
     width: 100%;
   }
@@ -259,7 +264,7 @@ input[type="radio"] {
 }
 
 .test-grid [class*="col-"] {
-    padding: 15px;
-    background-color: #f1f1f1;
-    border: 1px solid #D8D8D8;
+  padding: 10px;
+  background-color: #f1f1f1;
+  border: 1px solid #D8D8D8;
 }
