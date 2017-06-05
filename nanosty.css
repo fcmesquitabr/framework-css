@@ -37,7 +37,11 @@
 .col-p-3, .col-m-3, .col-g-3, 
 .col-p-4, .col-m-4, .col-g-4, 
 .col-p-5, .col-m-5, .col-g-5, 
-.col-p-6, .col-m-6, .col-g-6 {
+.col-p-6, .col-m-6, .col-g-6,
+.col-p-7, .col-m-7, .col-g-7, 
+.col-p-8, .col-m-8, .col-g-8, 
+.col-p-9, .col-m-9, .col-g-9,
+.col-p-10, .col-m-10, .col-g-10 {
   position: relative;
   min-height: 1px;
   padding: 0px 15px;
@@ -48,7 +52,7 @@
   width: 100%;
 }
 .col-p-9, .col-m-9, .col-g-9 {
-  width: 83.33333333%;
+  width: 83.33333%;
 }
 .col-p-8, .col-m-8, .col-g-8 {
   width: 80%;
@@ -57,13 +61,13 @@
   width: 75%;
 }
 .col-p-6, .col-m-6, .col-g-6 {
-  width: 66.6666%;
+  width: 66.66667%;
 }
 .col-p-5, .col-m-5, .col-g-5 {
   width: 50%;
 }
 .col-p-4, .col-m-4, .col-g-4 {
-  width: 33.33333333%;
+  width: 33.33333%;
 }
 .col-p-3, .col-m-3, .col-g-3 {
   width: 25%;
@@ -72,7 +76,7 @@
   width: 20%;
 }
 .col-p-1, .col-m-1, .col-g-1 {
-  width: 16.6666%;
+  width: 16.66667%;
 }
 
 p { text-indent: 20px; text-align: justify; margin-top: 10px; }
@@ -89,12 +93,24 @@ nav.vertical ul li a { display: block; padding-top: 5px; padding-bottom: 5px; wo
 
 nav ul li a:hover { text-decoration: none; }
 
+header {
+  margin-bottom: 10px;
+}
+
+footer {
+  margin-top: 10px;
+}
+
 .col-p-1 nav, .col-m-1 nav, .col-g-1 nav, 
 .col-p-2 nav, .col-m-2 nav, .col-g-2 nav ul, 
 .col-p-3 nav, .col-m-3 nav, .col-g-3 nav, 
 .col-p-4 nav, .col-m-4 nav, .col-g-4 nav, 
 .col-p-5 nav, .col-m-5 nav, .col-g-5 nav, 
-.col-p-6 nav, .col-m-6 nav, .col-g-6 nav {
+.col-p-6 nav, .col-m-6 nav, .col-g-6 nav,
+.col-p-7 nav, .col-m-7 nav, .col-g-7 nav,
+.col-p-8 nav, .col-m-8 nav, .col-g-8 nav, 
+.col-p-9 nav, .col-m-9 nav, .col-g-9 nav,
+.col-p-10 nav, .col-m-10 nav, .col-g-10 nav {
   margin-right: -15px;
   margin-left: -15px;
   width: 100%;
@@ -138,7 +154,7 @@ th {
   text-align: left;  
 }
 
-.table {
+.table, .table-blue {
   width: 100%;
   max-width: 100%;
   margin-bottom: 20px;
@@ -150,13 +166,20 @@ th {
 .table > tfoot > tr > th,
 .table > thead > tr > td,
 .table > tbody > tr > td,
-.table > tfoot > tr > td {
+.table > tfoot > tr > td,
+.table-blue > thead > tr > th,
+.table-blue > tbody > tr > th,
+.table-blue > tfoot > tr > th,
+.table-blue > thead > tr > td,
+.table-blue > tbody > tr > td,
+.table-blue > tfoot > tr > td {
   padding: 8px;
   line-height: 1.42857143;
   vertical-align: top;
   border-top: 1px solid #ddd;
 }
-.table > thead > tr > th {
+
+.table > thead > tr > th, .table-blue > thead > tr > th {
   vertical-align: bottom;
   border-bottom: 2px solid #ddd;
 }
@@ -167,6 +190,14 @@ th {
 
 .table > tbody > tr:hover {
   background-color: #e0e0e0;
+}
+
+.table-blue > tbody > tr:nth-of-type(odd) {
+  background-color: #DBEBF9;
+}
+
+.table-blue > tbody > tr:hover {
+  background-color: #1F74B9;
 }
 
 input[type="checkbox"],
