@@ -11,7 +11,7 @@ Para usar um layout com box, basta usar a classe CSS '.container' na div mais ex
 
 Tabelas no nanosty devem usar a classe CSS '.tabela'.
 
-As barras de navegação contendo os itens de menu podem ser horizontais (classe '.horizontal' na tag 'nav') ou verticais (classe '.vertical' na tag 'nav').
+As barras de navegação contendo os itens de menu podem ser horizontais (classe '.horizontal' na tag '<nav>') ou verticais (classe '.vertical' na tag '<nav>').
 
 As cores do layout da página podem ser alteradas usando paletas de cores. Atualmente, 2 estão disponíveis: 'paletas/paleta1' e 'paletas/paleta2'. Para usar uma determinada paleta, basta referenciá-la na tag '<link>' específica dentro da tag '<head>' do HTML.
 
