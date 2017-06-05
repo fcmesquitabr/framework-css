@@ -15,4 +15,4 @@ As barras de navegação contendo os itens de menu podem ser horizontais (classe
 
 As cores do layout da página podem ser alteradas usando paletas de cores. Atualmente, 2 estão disponíveis: 'paleta1' e 'paleta2'. Para usar uma determinada paleta, basta referenciá-la na tag '<link>' específica dentro da tag '<head>' do HTML.
 
-O layout das páginas que utilizam o nanosty são responsivas, adaptando-se a vários dispositivos, como smartphones, tablets e desktops.
+As páginas que utilizam o nanosty são responsivas, adaptando-se a vários dispositivos, como smartphones, tablets e desktops.
