@@ -1,0 +1,34 @@
+﻿---------------------------------------------------
+
+nanosty.css - Instruções Gerais
+
+
+Desenvolvedores: Carlos Eduardo / Fernando Mesquita
+
+Versão atual: 1.0
+
+---------------------------------------------------
+
+
+
+O nanosty é um framework CSS simplificado baseado nas ideias do Bootstrap e do Materialize.
+
+Sua utilização é bastante simples.
+
+Para usar um layout com box, basta usar a classe CSS '.container' na div mais externa. Dentro do container, podemos especificar linhas através de novas div com a classe '.row'. E, dentro de cada linha, podemos criar colunas através de novas div com a classe '.col-{p|m|g}-{1|2|3|...}'. Lembrando que existem tags especiais no HTML5 que podem se usadas no lugar de uma div: section, aside etc.
+
+
+
+Tabelas no nanosty devem usar a classe CSS '.tabela'.
+
+
+
+As barras de navegação contendo os itens de menu podem ser horizontais (classe '.horizontal' na tag 'nav') ou verticais (classe '.vertical' na tag 'nav').
+
+
+
+As cores do layout da página podem ser alteradas usando paletas de cores. Atualmente, 2 estão disponíveis: 'paletas/paleta1' e 'paletas/paleta2'. Para usar uma determinada paleta, basta referenciá-la na tag '<link>' específica dentro da tag '<head>' do HTML.
+
+
+
+O layout das páginas que utilizam o nanosty são responsivas, adaptando-se a vários dispositivos, como smartphones, tablets e desktops.
