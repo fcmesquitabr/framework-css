@@ -1,0 +1,21 @@
+* { color: steelblue; }
+
+header, footer { background-color: lightblue; }
+
+nav.horizontal { background-color: steelblue; }
+
+nav.horizontal ul li a { color: white; }
+
+nav.vertical, aside { background-color: lavender; }
+
+h1, h2, h3, h4, h5, h6 { color: brown; }
+
+thead > tr { background-color: steelblue; }
+
+thead > tr > th { color: white; }
+
+table > tbody > tr:nth-of-type(odd) { background-color: lavender; }
+
+table > tbody > tr:hover { background-color: brown; }
+
+table > tbody > tr:hover td { color: white; }

@@ -9,22 +9,6 @@
           box-sizing: border-box;
 }
 
-.bg-lightgray {
-  background-color: lightgray;
-}
-
-.bg-lightblue {
-  background-color: lightblue;
-}
-
-.bg-lightyellow {
-  background-color: lightyellow;
-}
-
-.bg-lightgreen {
-  background-color: lightgreen;
-}
-
 .container {
   display: block;
   margin: 0 auto;
@@ -142,7 +126,7 @@ th {
   text-align: left;
 }
 
-.table, .table-blue {
+.table {
   width: 100%;
   max-width: 100%;
   margin-bottom: 20px;
@@ -154,38 +138,16 @@ th {
 .table > tfoot > tr > th,
 .table > thead > tr > td,
 .table > tbody > tr > td,
-.table > tfoot > tr > td,
-.table-blue > thead > tr > th,
-.table-blue > tbody > tr > th,
-.table-blue > tfoot > tr > th,
-.table-blue > thead > tr > td,
-.table-blue > tbody > tr > td,
-.table-blue > tfoot > tr > td {
+.table > tfoot > tr > td {
   padding: 8px;
   line-height: 1.42857143;
   vertical-align: top;
   border-top: 1px solid #ddd;
 }
 
-.table > thead > tr > th, .table-blue > thead > tr > th {
+.table > thead > tr > th {
   vertical-align: bottom;
   border-bottom: 2px solid #ddd;
-}
-
-.table > tbody > tr:nth-of-type(odd) {
-  background-color: #f5f5f5;
-}
-
-.table > tbody > tr:hover {
-  background-color: #e0e0e0;
-}
-
-.table-blue > tbody > tr:nth-of-type(odd) {
-  background-color: #DBEBF9;
-}
-
-.table-blue > tbody > tr:hover {
-  background-color: #1F74B9;
 }
 
 input[type="checkbox"],
@@ -265,6 +227,5 @@ input[type="radio"] {
 
 .test-grid [class*="col-"] {
   padding: 10px;
-  background-color: #f1f1f1;
-  border: 1px solid #D8D8D8;
+  border: 1px solid lightgrey;
 }

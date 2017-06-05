@@ -1,0 +1,15 @@
+header, footer { background-color: lightgray; }
+
+nav.horizontal { background-color: lightgreen; }
+
+nav.vertical { background-color: lightblue; }
+
+aside { background-color: lightyellow; }
+
+table > tbody > tr:nth-of-type(odd) {
+  background-color: #F5F5F5;
+}
+
+table > tbody > tr:hover {
+  background-color: #E0E0E0;
+}
