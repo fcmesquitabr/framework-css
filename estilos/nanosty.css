@@ -96,6 +96,7 @@ img, video {
 
 h1 {
   font-size: 1.8em;
+  font-family: Merriweather;
 }
 
 h2 {
@@ -104,6 +105,7 @@ h2 {
 
 h3 {
   font-size: 1.5em;
+  font-family: SlaboArial;
 }
 
 h4 {
@@ -116,6 +118,7 @@ h5 {
 
 h6 {
   font-size: 1.125em;
+  font-family: Roboto;
 }
 
 table {
