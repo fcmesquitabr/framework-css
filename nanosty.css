@@ -227,5 +227,5 @@ input[type="radio"] {
 
 .test-grid [class*="col-"] {
   padding: 10px;
-  border: 1px solid lightgrey;
+  border: 1px solid #D3D3D3;
 }
